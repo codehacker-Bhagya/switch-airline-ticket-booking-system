@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class FlightService {
     static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void FlightData() {
 
         FlightService flightService = new FlightService();
         Flight flight = flightService.FlightInformation();

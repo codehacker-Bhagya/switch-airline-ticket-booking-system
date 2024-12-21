@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class BillingAndCancellationService {
 static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public void BillingDats() {
 
         BillingAndCancellationService billingAndCancellationService = new BillingAndCancellationService();
         BillingAndCancellation billingAndCancellation= billingAndCancellationService.BillingService();

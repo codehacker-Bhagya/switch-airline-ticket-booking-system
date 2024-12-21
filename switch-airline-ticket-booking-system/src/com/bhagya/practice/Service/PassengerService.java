@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class PassengerService {
     static Scanner scanner = new Scanner(System.in);
-  // public static int option = 0;
+    // public static int option = 0;
 
-    public static void main(String[] args) {
+    public static void PassengerData() {
 
 
         int option = 0;
@@ -35,7 +35,7 @@ public class PassengerService {
 
             switch (option) {
                 case 1:
-                    System.out.println("Passenger Details:" + passenger );
+                    System.out.println("Passenger Details:" + passenger);
                     break;
                 case 2:
                     System.out.println("Flight Information");
@@ -55,11 +55,15 @@ public class PassengerService {
 
             }
 
-        }while (option != 0) ;
+        } while (option != 0);
     }
 
-    public Passenger acceptPassenger(){
+
+    public Passenger acceptPassenger() {
+
         int option = 0;
+
+
 
         System.out.println("Welcome to Airline booking System");
         System.out.println("....pls choose your option....");
@@ -77,7 +81,6 @@ public class PassengerService {
         passenger.setMoNo(MoNo);
         passenger.setUIDno(uid);
         return passenger;
-
 
 
     }

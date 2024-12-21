@@ -10,7 +10,7 @@ public class TicketService {
 static Scanner scanner = new Scanner(System.in);
 
 
-    public static void main(String[] args) {
+    public static void TicketDemo() {
 
         int option = 0;
         TicketService ticketService = new TicketService();
@@ -60,7 +60,7 @@ static Scanner scanner = new Scanner(System.in);
 
     }
 
-    private Ticket TicketBooking(){
+    Ticket TicketBooking(){
         int option =0;
         System.out.println("Welcome to Airline booking System");
         System.out.println("Enter your option");

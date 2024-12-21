@@ -8,7 +8,7 @@ public class InstructionService {
 
     static  Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void InstructionDemo() {
 
         InstructionService instructionService = new InstructionService();
         Instruction instruction = instructionService.Instructionservice();
